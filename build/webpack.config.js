@@ -23,6 +23,8 @@ module.exports = {
       '@': resolve(rootPath, './src')
     }
   },
+  resolveLoader: {
+  },
   module: {
     rules: [{
       test: /\.vue$/,
